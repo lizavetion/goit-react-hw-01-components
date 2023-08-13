@@ -46,7 +46,7 @@ export const Location = styled.p`
 `;
 
 export const Stats = styled.ul`
-  width: 302px;
+  width: 300px;
   height: 100px;
   background-color: gainsboro;
   margin: 0 auto;
@@ -67,8 +67,8 @@ export const ListItem = styled.li`
   flex: 1;
   text-align: center;
 
-  &:not(:last-child) {
-    border-right: 1px solid gray;
+  &:last-child {
+    border-right: 0;
   }
 `;
 

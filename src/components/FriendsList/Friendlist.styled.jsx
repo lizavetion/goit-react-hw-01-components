@@ -8,7 +8,7 @@ export const Item = styled.li`
   display: flex;
   align-items: center;
   margin-bottom: 20px;
-  background-color: yellow;
+  background-color: rgba(233, 235, 178, 0.85);
   width: 300px;
   margin-left: auto;
   margin-right: auto;
